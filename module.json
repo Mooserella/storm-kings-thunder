@@ -1,0 +1,68 @@
+{
+  "id": "storm-kings-thunder",
+  "name": "storm-kings-thunder",
+  "title": "SKT (Shared Compendiums)",
+  "description": "<br/><div style=\"border: 1px solid #eee;border-left-width: .25rem;border-left-color: #f0ad4e;border-radius: .25rem;padding: 10px;\"><h5 style=\"margin:0px;\">Shared Compendium</h5><p style=\"margin-bottom:0px;\">This module allows you to share compendiums between your worlds.</p><p style=\"margin-bottom:0px;\">It cannot be auto-updated, therefore it cannot overwrite your compendiums and is therefore <strong>safe to unlock</strong>.</p></div>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Mooserella"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actor-1-actor-skt",
+      "label": "Actor - SKT (Shared)",
+      "path": "packs/actor-1-actor-skt",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "item-1-items-skt",
+      "label": "Items - SKT (Shared)",
+      "path": "packs/item-1-items-skt",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journalentry-1-journal-entries-skt",
+      "label": "Journal Entries - SKT (Shared)",
+      "path": "packs/journalentry-1-journal-entries-skt",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "scene-1-scenes-skt",
+      "label": "Scenes - SKT (Shared)",
+      "path": "packs/scene-1-scenes-skt",
+      "type": "Scene",
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "SKT",
+      "sorting": "m",
+      "color": "#3f8230",
+      "packs": [
+        "actor-1-actor-skt",
+        "item-1-items-skt",
+        "journalentry-1-journal-entries-skt",
+        "scene-1-scenes-skt"
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e"
+      }
+    ]
+  },
+  "download": "https://github.com/Mooserella/storm-kings-thunder/releases/download/v1.0.0/storm-kings-thunder.zip",
+  "url": "https://github.com/Mooserella/storm-kings-thunder"
+}
