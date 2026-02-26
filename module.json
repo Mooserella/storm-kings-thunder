@@ -3,10 +3,10 @@
   "name": "storm-kings-thunder",
   "title": "SKT (Shared Compendiums)",
   "description": "<br/><div style=\"border: 1px solid #eee;border-left-width: .25rem;border-left-color: #f0ad4e;border-radius: .25rem;padding: 10px;\"><h5 style=\"margin:0px;\">Shared Compendium</h5><p style=\"margin-bottom:0px;\">This module allows you to share compendiums between your worlds.</p><p style=\"margin-bottom:0px;\">It cannot be auto-updated, therefore it cannot overwrite your compendiums and is therefore <strong>safe to unlock</strong>.</p></div>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
-    "verified": "12"
+    "verified": "13"
   },
   "authors": [
     {
